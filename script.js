@@ -1,23 +1,4 @@
 //your JS code here. If required.
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <div class="container">
-        <h2>Transform Data with Promises</h2>
-        <input type="number" id="ip" placeholder="Enter a number">
-        <button id="btn">Start Transformations</button>
-        <div id="output"></div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
 document.getElementById("btn").addEventListener("click", () => {
     const output = document.getElementById("output");
     const inputValue = parseFloat(document.getElementById("ip").value);
